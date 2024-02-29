@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Packet Tracking", "Packet Tracking\Packet Tracking.csproj", "{A7CE6AAE-1291-4346-A2F1-E4E2D5CA7999}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Setup1", "Setup1\Setup1.vdproj", "{4013DCC1-F2CF-4656-96F1-4C4736278288}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Setup2", "Setup2\Setup2.vdproj", "{25943441-B221-474A-A575-A622D092FC6C}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Setup3", "Setup3\Setup3.vdproj", "{80654887-55F7-4D46-9238-550DA30058CD}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Setup4", "Setup4\Setup4.vdproj", "{2D40CBCB-1686-408F-8F46-D72EFE5F163A}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Setup5", "Setup5\Setup5.vdproj", "{899E125D-DEA1-437E-89FA-0A40D5FA1650}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A7CE6AAE-1291-4346-A2F1-E4E2D5CA7999}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7CE6AAE-1291-4346-A2F1-E4E2D5CA7999}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7CE6AAE-1291-4346-A2F1-E4E2D5CA7999}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7CE6AAE-1291-4346-A2F1-E4E2D5CA7999}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4013DCC1-F2CF-4656-96F1-4C4736278288}.Debug|Any CPU.ActiveCfg = Debug
+		{4013DCC1-F2CF-4656-96F1-4C4736278288}.Release|Any CPU.ActiveCfg = Release
+		{25943441-B221-474A-A575-A622D092FC6C}.Debug|Any CPU.ActiveCfg = Debug
+		{25943441-B221-474A-A575-A622D092FC6C}.Release|Any CPU.ActiveCfg = Release
+		{80654887-55F7-4D46-9238-550DA30058CD}.Debug|Any CPU.ActiveCfg = Debug
+		{80654887-55F7-4D46-9238-550DA30058CD}.Release|Any CPU.ActiveCfg = Release
+		{2D40CBCB-1686-408F-8F46-D72EFE5F163A}.Debug|Any CPU.ActiveCfg = Debug
+		{2D40CBCB-1686-408F-8F46-D72EFE5F163A}.Release|Any CPU.ActiveCfg = Release
+		{899E125D-DEA1-437E-89FA-0A40D5FA1650}.Debug|Any CPU.ActiveCfg = Debug
+		{899E125D-DEA1-437E-89FA-0A40D5FA1650}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

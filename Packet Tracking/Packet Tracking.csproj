@@ -1,0 +1,226 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{A7CE6AAE-1291-4346-A2F1-E4E2D5CA7999}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Packet_Tracking</RootNamespace>
+    <AssemblyName>Packet Tracking</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevExpress.Data.v16.1, Version=16.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Entity" />
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Printing" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="For.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="For.Designer.cs">
+      <DependentUpon>For.cs</DependentUpon>
+    </Compile>
+    <Compile Include="F_Dashboard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="F_Dashboard.Designer.cs">
+      <DependentUpon>F_Dashboard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="F_Issue.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="F_Issue.Designer.cs">
+      <DependentUpon>F_Issue.cs</DependentUpon>
+    </Compile>
+    <Compile Include="F_Packet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="F_Packet.Designer.cs">
+      <DependentUpon>F_Packet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="F_Return.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="F_Return.Designer.cs">
+      <DependentUpon>F_Return.cs</DependentUpon>
+    </Compile>
+    <Compile Include="F_user.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="F_user.Designer.cs">
+      <DependentUpon>F_user.cs</DependentUpon>
+    </Compile>
+    <Compile Include="packetDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>packetDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="packetDataSet11.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>packetDataSet11.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="packetDataSet2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>packetDataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="packetDataSet3.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>packetDataSet3.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="packetDataSet4.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>packetDataSet4.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="F_Dashboard.resx">
+      <DependentUpon>F_Dashboard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="F_Issue.resx">
+      <DependentUpon>F_Issue.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="F_Packet.resx">
+      <DependentUpon>F_Packet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="F_Return.resx">
+      <DependentUpon>F_Return.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="F_user.resx">
+      <DependentUpon>F_user.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="packetDataSet1.xsc">
+      <DependentUpon>packetDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="packetDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>packetDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="packetDataSet1.xss">
+      <DependentUpon>packetDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="packetDataSet11.xsc">
+      <DependentUpon>packetDataSet11.xsd</DependentUpon>
+    </None>
+    <None Include="packetDataSet11.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>packetDataSet11.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="packetDataSet11.xss">
+      <DependentUpon>packetDataSet11.xsd</DependentUpon>
+    </None>
+    <None Include="packetDataSet2.xsc">
+      <DependentUpon>packetDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="packetDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>packetDataSet2.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="packetDataSet2.xss">
+      <DependentUpon>packetDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="packetDataSet3.xsc">
+      <DependentUpon>packetDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="packetDataSet3.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>packetDataSet3.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="packetDataSet3.xss">
+      <DependentUpon>packetDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="packetDataSet4.xsc">
+      <DependentUpon>packetDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="packetDataSet4.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>packetDataSet4.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="packetDataSet4.xss">
+      <DependentUpon>packetDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
